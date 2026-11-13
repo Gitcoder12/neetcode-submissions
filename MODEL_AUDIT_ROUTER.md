@@ -1,50 +1,41 @@
 # Independent Model Audit Router — neetcode-submissions
 
-**Revision date:** 2026-11-13  
-**Repository class:** Personal fork of upstream project **original repository**.
+**Revision date:** 2026-11-13
 
-## Upstream attribution and integrity
-- This repository is a fork. Do not claim the upstream project, codebase, README, maintainers, commits or releases as original work by this repository owner.
-- Preserve upstream copyright, licence, notices, README, contribution rules and provenance.
-- Audit only changes made in this fork separately from upstream history. Record the exact fork-specific diff and base/upstream SHA.
-- Never rewrite the upstream README. Any portfolio note must be a separate, dated, clearly labelled section at the very bottom and must not remove or modify upstream technical content.
-- Do not repackage, relabel, or misrepresent upstream datasets, benchmarks, model results, maintainers or contributors.
+## Data integrity and evidence rules
+- Preserve the maintainer's original solutions and explanations; never replace them with generated placeholders or claim a problem was accepted unless the platform provides evidence.
+- Keep sample inputs/outputs clearly labelled. Do not invent judge results, runtime measurements, acceptance rates or problem statements.
+- Preserve third-party platform names, problem links and licence/usage restrictions. Do not republish protected problem text beyond permitted excerpts.
+- Test claims require reproducible commands and results on the exact commit reviewed.
 
-## Data integrity rules
-- Never replace upstream or maintainer-provided datasets with fabricated, generated, synthetic or placeholder records.
-- Trace every data change to its original source, licence, date, upstream commit and documented limitations.
-- If provenance is unknown, preserve current data and mark it unknown/unverified. Never invent replacements.
-- Synthetic fixtures belong only in clearly labelled tests/examples and must be separate from runtime data.
-- Never invent citations, metrics, benchmark results, customers, partnerships, deployments, endorsements or individual contributors.
-- Test claims need reproducible evidence on the exact fork commit reviewed.
+## README preservation
+Recover the last maintainer-authored README from Git history and preserve it intact. Do not rewrite or replace it. Append AI-generated notes only as a dated, clearly labelled secondary section at the very bottom.
 
-## Independent audit roles
-1. Upstream provenance, attribution and licence reviewer.
-2. Dataset and benchmark integrity reviewer.
-3. Code/security/dependency reviewer.
-4. Tests, build, CI and reproducibility reviewer.
-5. README/documentation and public-claim reviewer.
-6. Career-integrity reviewer distinguishing fork maintenance from upstream authorship.
+## Independent reviewers
+1. **Correctness reviewer:** algorithms, edge cases, complexity and proof sketches.
+2. **Test reviewer:** sample tests, boundary tests, randomized/brute-force cross-checks and language/runtime.
+3. **Attribution reviewer:** problem links, source credit, platform rules and licensing.
+4. **Documentation reviewer:** README history, explanation quality, setup and link checks.
+5. **Career reviewer:** verify that claims reflect the owner's actual solutions and skill level.
 
-## Audit sequence
-1. Record fork URL, upstream URL, base branch, exact HEAD SHA and merge-base SHA.
-2. Compare fork with upstream; enumerate fork-only commits, files and changes.
-3. Review all fork PRs and classify them as merged, open, closed-unmerged, reverted or unverified.
-4. Inspect datasets, benchmark inputs, generated files, fixtures, licenses and provenance.
-5. Preserve upstream README exactly; append a clearly separated portfolio addendum only if needed.
-6. Run documented checks on the exact fork commit and inspect CI for suppressed failures.
-7. Report security, reproducibility, attribution and performance issues with evidence.
+## Audit workflow
+1. Record URL, default branch and exact HEAD SHA.
+2. Inventory languages, problem mappings, source files and dependencies.
+3. Match each solution to the correct problem/variant without copying protected statements.
+4. Run documented tests and independently test edge cases.
+5. Compare README with its pre-AI history and preserve the original.
+6. Check for secrets, personal data, dead links, fabricated acceptance/performance claims and duplicate/incorrect solutions.
+7. Publish findings before changing code.
 
 ## Required finding format
-Severity (**P0/P1/P2/P3**), exact path/line, upstream/fork comparison, reproduction, expected vs actual, evidence and SHA, confirmed/suspected/unverifiable status, minimal fix, regression test and attribution impact.
+Severity (**P0/P1/P2/P3**), exact path/line, problem identifier/link, reproduction, expected vs actual, evidence and SHA, confirmed/suspected/unverifiable status, minimal fix, regression test, and README/data impact.
 
 ## Merge gate
-- [ ] Fork-specific work is distinguished from upstream work.
-- [ ] Upstream licence, copyright, notices and README are preserved.
-- [ ] No real data is silently replaced with synthetic records.
-- [ ] Data and benchmarks have source/licence/provenance notes.
-- [ ] Exact-head tests/CI are checked; failures disclosed.
-- [ ] No secrets, private personal details, classified or confidential information.
-- [ ] Second independent review and maintainer approval recorded.
+- [ ] No invented judge results, benchmark numbers or accepted-status claims.
+- [ ] Problem mapping and algorithm implementation are correct.
+- [ ] Tests are run on the exact reviewed commit or marked NOT RUN.
+- [ ] The original README is preserved; AI notes appear at the bottom only.
+- [ ] No leaked credentials, private personal details or prohibited problem content.
+- [ ] Independent second review and maintainer approval completed.
 
-**Do not claim ownership of upstream work.** Do not merge, delete, force-push, replace datasets or alter upstream documentation during an audit. The repository owner has final approval.
+Repository: **neetcode-submissions**. Do not infer correctness from a filename or a model-generated explanation. Do not merge, delete, overwrite original solutions or alter the original README during audit. The repository owner has final approval.
