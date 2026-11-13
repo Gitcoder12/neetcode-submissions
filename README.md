@@ -79,3 +79,17 @@ Manage your sync preferences at [neetcode.io/profile/github](https://neetcode.io
 - [Company and team fit](COMPANY_FIT.md) · [README explanation draft](README_ADDENDUM_DRAFT.md)
 - [README quality checklist](README_QUALITY_CHECKLIST.md)
 - [Contributing](CONTRIBUTING.md) · [Agent instructions](AGENTS.md) · [Agent skills](SKILLS.md)
+
+## Understanding the project
+
+### In plain language
+
+A collection of your coding interview problem submissions synced from NeetCode, so you can revisit problems and track the solutions you have written.
+
+### Technical and research view
+
+README describes automatic GitHub Sync from NeetCode.io. This repository is populated by an external submission-sync workflow; local documentation and agent contributions must avoid rewriting generated solution files or interfering with the upstream sync process. The portfolio value should be in correctness, complexity explanations and well-organised review notes, not claiming ownership of the platform.
+
+Document languages, directory layout, sync timing/configuration and the distinction between generated solution files and manually maintained learning notes.
+
+For future work, see [FEATURE_UPGRADE_PLAN.md](FEATURE_UPGRADE_PLAN.md), [ACTIVITY_LOG.md](ACTIVITY_LOG.md), [COMPANY_FIT.md](COMPANY_FIT.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
