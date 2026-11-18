@@ -100,3 +100,22 @@ This section supplements the maintainer-authored README above; it does not repla
 3. Track solved/remaining problems from a source-backed index rather than relying on README claims alone.
 
 **Verification status:** source-tree inspection only; no submissions were executed or correctness-tested in this audit.
+
+
+---
+
+## Branch Activity & Development History
+
+**Audit date:** 2026-11-18 · **Comparison base:** `main`
+
+| Branch | Difference from `main` | Observed work / changed paths |
+|---|---:|---|
+| `docs/portfolio-operating-kit-2026-11-13` | 4 ahead / 4 behind | Activity log, agent guidance, company-fit notes, contributor guide, feature plan and skills |
+| `docs/project-status-2026-11-16-neetcode-submissions` | 1 / 1 | Project status snapshot: `PROJECT_STATUS.md` |
+
+### Open pull requests observed during this audit
+
+- [PR #2 — project status snapshot](https://github.com/Gitcoder12/neetcode-submissions/pull/2)
+- [PR #1 — sync-safe learning and contribution handbook](https://github.com/Gitcoder12/neetcode-submissions/pull/1)
+
+**Verification boundary:** Git metadata and changed paths only. Review PR head/base and CI before merging. No branches have been merged or deleted by this documentation update.
