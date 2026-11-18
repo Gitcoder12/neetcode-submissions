@@ -100,3 +100,10 @@ This section supplements the maintainer-authored README above; it does not repla
 3. Track solved/remaining problems from a source-backed index rather than relying on README claims alone.
 
 **Verification status:** source-tree inspection only; no submissions were executed or correctness-tested in this audit.
+
+---
+
+## Examples Used
+- Solving Two Integer Sum with a hash map
+- Applying binary search to a sorted array
+- Comparing time and space complexity across interview solutions
