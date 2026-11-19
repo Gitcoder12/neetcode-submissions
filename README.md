@@ -107,3 +107,27 @@ This section supplements the maintainer-authored README above; it does not repla
 - Solving Two Integer Sum with a hash map
 - Applying binary search to a sorted array
 - Comparing time and space complexity across interview solutions
+
+
+---
+
+## Comparison with Existing Open-Source Projects
+
+This repository is a personal archive of solutions synchronized from NeetCode submissions. It is not intended to be a competing algorithm library or a replacement for the NeetCode learning platform. These repositories provide useful reference points for solution organization and coverage.
+
+| Project | Established focus | Relationship to this repository |
+|---|---|---|
+| [NeetCode roadmap](https://neetcode.io/roadmap) | Curated interview-preparation roadmap and problem learning path | The upstream learning structure; this repository stores the author's own submitted solutions rather than reproducing the course or platform. |
+| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | Community-maintained implementations of algorithms and data structures | A broad reference implementation library; this repository is a personal submission history and should not claim the same review coverage or algorithm breadth. |
+| [doocs/leetcode](https://github.com/doocs/leetcode) | Large collection of LeetCode solutions with explanations across languages | A broad community solution catalogue; this repository's distinction is preserving the author's own NeetCode-synced submissions and revision history. |
+
+### Where this repository is different
+- **Personal provenance:** solutions are synced from the user's own NeetCode submissions rather than curated as a community reference library.
+- **Submission history:** the repository structure can preserve multiple attempts for a problem, which is useful for reviewing personal progress.
+- **Multi-language archive:** the README lists submissions in several programming languages.
+
+### Where established projects are stronger
+TheAlgorithms and doocs have broader coverage, explanations and community-maintained organization. NeetCode provides the curated learning roadmap and problem context. This repository should not claim comprehensive problem coverage or correctness without running the solutions against representative test cases.
+
+### Evidence and limitations
+Keep the generated/synchronized nature of this repository clear. Add per-problem complexity notes and tests only where appropriate, and avoid manually changing files that the NeetCode sync process may overwrite. This is a personal-learning archive comparison, not an algorithm-library ranking.
